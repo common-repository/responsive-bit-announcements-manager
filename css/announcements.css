@@ -1,0 +1,29 @@
+#announcements {
+	display: hidden;
+	text-align: center;
+	background: #FF7F00;
+	height: 35px;
+}
+
+#announcements .wrapper {
+	width: 1000px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+
+#announcements .wrapper .close {
+	float: right;
+	font-weight: bold;
+	padding: 0 5px;
+}
+
+#announcements .wrapper .close:hover {
+	background: #000;
+	border-radius: 5px;
+}
+
+#announcements .wrapper .rb_announcements_message p {
+	margin: 0;
+	color: #fff;
+}
